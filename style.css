@@ -1,0 +1,62 @@
+/* Global Properties */
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  background: #1f2235;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+
+  border: 2px solid transparent;
+}
+
+.navigation-link.hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f3b089;
+  transition: 0.5s ease;
+}
+
+.main-container {
+  min-height: 100em;
+}
+
+.main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-row h1 {
+  font-size: 4rem;
+}
+
+.main-row img {
+  width: auto;
+
+}
+
+#about {
+  background: #313532;
+  border-radius: 0.5rem;
+}
+
+#socialmedia {
+  background: #313532;
+
+}
+
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
